@@ -29,8 +29,8 @@ body {
 }
 
 .profile-image {
-  width: 150px; /* Daha büyük bir profil resmi */
-  height: 150px; /* Profil resminin yüksekliği */
+  width: 600px; /* Daha büyük bir profil resmi */
+  height: 600px; /* Profil resminin yüksekliği */
   object-fit: cover;
   border-radius: 50%;
   margin-right: 20px; /* Resmin sağında boşluk */
