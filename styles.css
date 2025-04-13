@@ -10,6 +10,42 @@ body {
   justify-content: center;
   align-items: center;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.left {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.left .name {
+  font-weight: 700; /* kalın */
+  font-size: 20px;
+}
+
+.left .role {
+  font-weight: 300; /* ince */
+  font-size: 16px;
+  color: #555;
+}
+
+.right a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.right a:hover {
+  color: #000;
+}
 
 .container {
   display: flex;
