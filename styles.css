@@ -3,63 +3,46 @@ body {
   color: #333333;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
   height: 100vh;
-  display: flex;
 }
-.header {
+.header .logo-image {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 20px 40px;
-  border-bottom: 1px solid #ccc;
 }
 
-.left {
+.header .name {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.left .name {
+  justify-content: flex-start;
   font-weight: 700; /* kalın */
   font-size: 20px;
 }
-
-.left .role {
+.header .role {
+  display: flex;
+  justify-content: flex-start;
   font-weight: 300; /* ince */
   font-size: 16px;
   color: #555;
 }
-
-.right a {
-  margin-left: 30px;
-  text-decoration: none;
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
   color: #333;
-  font-weight: 400;
-  transition: color 0.3s;
-}
-
-.right a:hover {
-  color: #000;
+  font-weight: 300;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
-  padding: 20px;
+  flex-direction: row;
 }
 
 .profile-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  margin: 0;
 }
 
 .profile-image {
@@ -71,7 +54,8 @@ body {
 }
 
 .text-section {
-  max-width: 600px; /* Metnin boyutunu sınırlamak */
+  max-width: 600px;
+  flex-direction: column; /* Metnin boyutunu sınırlamak */
 }
 
 h1 {
@@ -113,10 +97,6 @@ p {
 .footer-section h4 {
   font-weight: bold;
   margin-bottom: 8px;
-}
-
-.footer-section p {
-  margin: 0;
 }
 
 .footer-section a {
