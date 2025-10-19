@@ -106,6 +106,12 @@ body{
 
 /* TABLET */
 @media (min-width: 768px) {
+
+  .how-it-works {
+    flex-direction: row;
+    max-width: 768px;
+  }
+  
   .hiw-section-image {
     padding: 100px 64px;
   }
@@ -145,7 +151,7 @@ body{
 @media (min-width: 1025px) {
   .how-it-works {
     flex-direction: row;
-    max-width: 1440px;
+    max-width: 1025px;
   }
 
   .hiw-section-image {
