@@ -110,7 +110,6 @@ body{
     margin:0 auto;
     padding:0;
     flex-direction: row;
-    max-width: 100%;
   }
 
   .hiw-section-image {
@@ -154,7 +153,6 @@ body{
     margin:0 auto;
     padding:0;
     flex-direction: row;
-    max-width: 100%;
   }
 
   .hiw-section-image {
