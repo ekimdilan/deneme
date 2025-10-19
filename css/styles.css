@@ -145,6 +145,7 @@ body{
 @media (min-width: 1025px) {
   .how-it-works {
     flex-direction: row;
+    max-width: 1440px;
   }
 
   .hiw-section-image {
