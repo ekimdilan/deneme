@@ -108,6 +108,7 @@ body{
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
+    width: 100%;
   }
 
   .how-it-works-img {
@@ -116,6 +117,7 @@ body{
 
   .hiw-section-content {
     padding: 100px 64px;
+    width: 100%;
   }
 
   .how-it-works-title,
@@ -149,6 +151,7 @@ body{
 
   .hiw-section-image {
     padding: 100px 100px;
+    width: 100%;
   }
 
   .how-it-works-img {
@@ -157,6 +160,7 @@ body{
 
   .hiw-section-content {
     padding: 100px 100px;
+    width: 100%;
   }
 
   .how-it-works-title{
