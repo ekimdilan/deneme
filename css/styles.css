@@ -106,7 +106,6 @@ body{
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 12794px) {
-
   .how-it-works {
     flex-direction: row;
   }
@@ -150,7 +149,6 @@ body{
 @media (min-width: 1280px) and (max-width: 1440px) {
   .how-it-works {
     flex-direction: row;
-    max-width: 1280px;
   }
 
   .hiw-section-image {
