@@ -102,7 +102,7 @@ body{
     flex-shrink: 0;
 }
 
-/* TABLET (from 768px) */
+/* TABLET */
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
@@ -139,7 +139,7 @@ body{
   }
 }
 
-/* DESKTOP (from 1280px, including widths like 1373px) */
+/* DESKTOP */
 @media (min-width: 1280px) {
   .how-it-works {
     flex-direction: row;
