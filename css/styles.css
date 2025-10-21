@@ -43,7 +43,6 @@ body{
 .hiw-section-content{
     background-color:#576F35;
     padding:80px 20px; 
-    max-height:676px; 
 }
 
 .how-it-works-title{
@@ -103,15 +102,39 @@ body{
     flex-shrink: 0;
 }
 
-
-/* TABLET */
-@media (min-width: 768px) and (max-width: 12794px) {
-  .how-it-works {
-    margin:0 auto;
-    padding:0;
-    flex-direction: row;
+/* SMALL SCREENS (e.g., mobile) */
+@media (max-width: 767px) {
+  .hiw-section-image,
+  .hiw-section-content {
+    padding: 40px 20px;
   }
 
+  .how-it-works-title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .how-it-works-description {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 32px;
+  }
+
+  .hiw-steps-list li {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 16px;
+  }
+
+  .hiw-steps-list li::before {
+    width: 35px;
+    height: 35px;
+    font-size: 1em;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
   }
@@ -148,11 +171,10 @@ body{
 }
 
 /* DESKTOP */
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1025px) {
   .how-it-works {
-    margin:0 auto;
-    padding:0;
     flex-direction: row;
+    max-width: 1440px;
   }
 
   .hiw-section-image {
