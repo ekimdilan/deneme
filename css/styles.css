@@ -221,13 +221,6 @@ body{
     padding: 100px 100px;
   }
 
-  .how-it-works-title,
-  .how-it-works-description,
-  .hiw-steps-list {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
   .how-it-works-title{
     margin-bottom: 24px;
     font-size:32px;
