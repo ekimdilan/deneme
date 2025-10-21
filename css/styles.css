@@ -26,7 +26,7 @@ body{
 
 .hiw-section-image{
     background-color:#7A3145;
-    padding:80px 20px;
+    padding:40px 20px;
     overflow: hidden;
     text-align: center;
 }
@@ -42,18 +42,18 @@ body{
 
 .hiw-section-content{
     background-color:#576F35;
-    padding:80px 20px; 
+    padding:40px 20px; 
 }
 
 .how-it-works-title{
     font-family: 'Inter Tight', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: -0.015em;
     color: #FBFBFB;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .hiw-highlight{
@@ -64,10 +64,10 @@ body{
 .how-it-works-description{
     font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 18px;
     color: #FBFBFB;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .hiw-steps-list {
@@ -80,8 +80,8 @@ body{
     counter-increment: step-counter; 
     background-color: white; 
     border-radius: 15px; 
-    padding: 12px 27px 12px 24px; 
-    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px; 
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
     gap: 15px; 
@@ -89,8 +89,8 @@ body{
 
 .hiw-steps-list li::before {
     content: counter(step-counter); 
-    width: 40px; 
-    height: 40px;
+    width: 35px; 
+    height: 35px;
     border-radius: 50%; 
     display: flex;
     justify-content: center;
@@ -98,74 +98,11 @@ body{
     background-color: #7A3145; 
     color: white; 
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     flex-shrink: 0;
 }
 
-/* VERY SMALL SCREENS (e.g., small mobile, flexible from 320px) */
-@media (max-width: 374px) {
-  .hiw-section-image,
-  .hiw-section-content {
-    padding: 20px 15px;
-  }
-
-  .how-it-works-title {
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 12px;
-  }
-
-  .how-it-works-description {
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom: 24px;
-  }
-
-  .hiw-steps-list li {
-    padding: 8px 16px 8px 16px;
-    margin-bottom: 12px;
-    gap: 10px;
-  }
-
-  .hiw-steps-list li::before {
-    width: 30px;
-    height: 30px;
-    font-size: 0.9em;
-  }
-}
-
-/* SMALL SCREENS (e.g., mobile, fully responsive from 375px) */
-@media (min-width: 375px) and (max-width: 767px) {
-  .hiw-section-image,
-  .hiw-section-content {
-    padding: 40px 20px;
-  }
-
-  .how-it-works-title {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 16px;
-  }
-
-  .how-it-works-description {
-    font-size: 13px;
-    line-height: 18px;
-    margin-bottom: 32px;
-  }
-
-  .hiw-steps-list li {
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 16px;
-  }
-
-  .hiw-steps-list li::before {
-    width: 35px;
-    height: 35px;
-    font-size: 1em;
-  }
-}
-
-/* TABLET */
+/* TABLET (from 768px) */
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
@@ -202,13 +139,14 @@ body{
   }
 }
 
-/* DESKTOP */
+/* DESKTOP (from 1280px, including widths like 1373px) */
 @media (min-width: 1280px) {
   .how-it-works {
     flex-direction: row;
   }
 
   .hiw-section-image {
+    flex: 1;
     padding: 100px 100px;
   }
 
@@ -217,6 +155,7 @@ body{
   }
 
   .hiw-section-content {
+    flex: 1;
     padding: 100px 100px;
   }
 
