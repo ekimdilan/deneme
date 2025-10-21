@@ -102,8 +102,8 @@ body{
     flex-shrink: 0;
 }
 
-/* VERY SMALL SCREENS (e.g., small mobile) */
-@media (max-width: 480px) {
+/* VERY SMALL SCREENS (e.g., small mobile, flexible from 320px) */
+@media (max-width: 374px) {
   .hiw-section-image,
   .hiw-section-content {
     padding: 20px 15px;
@@ -134,8 +134,8 @@ body{
   }
 }
 
-/* SMALL SCREENS (e.g., mobile) */
-@media (min-width: 481px) and (max-width: 767px) {
+/* SMALL SCREENS (e.g., mobile, fully responsive from 375px) */
+@media (min-width: 375px) and (max-width: 767px) {
   .hiw-section-image,
   .hiw-section-content {
     padding: 40px 20px;
@@ -203,10 +203,9 @@ body{
 }
 
 /* DESKTOP */
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
   .how-it-works {
     flex-direction: row;
-    max-width: 1440px;
   }
 
   .hiw-section-image {
