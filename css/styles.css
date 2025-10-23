@@ -5,6 +5,13 @@ body{
     font-family: 'Inter Tight', sans-serif;
 }
 
+.how-it-works{
+    min-width:320px;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+
 .hiw-visually-hidden {
   position: absolute;
   width: 1px;
@@ -15,13 +22,6 @@ body{
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
-}
-
-.how-it-works{
-    min-width:320px;
-    display:flex;
-    flex-direction:column;
-    margin:0 auto;
 }
 
 .hiw-section-image{
@@ -143,11 +143,16 @@ body{
 @media (min-width: 1280px) {
   .how-it-works {
     flex-direction: row;
+    margin-top:796px;
   }
 
   .hiw-section-image {
     flex: 1;
     padding: 100px 100px;
+    min-width:0;
+    max-width:640px;
+    position: relative;
+    z-index: 1;
   }
 
   .how-it-works-img {
@@ -157,6 +162,10 @@ body{
   .hiw-section-content {
     flex: 1;
     padding: 100px 100px;
+    min-width:0;
+    max-width:640px;
+    position: relative;
+    z-index: 1;
   }
 
   .how-it-works-title{
